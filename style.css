@@ -1,0 +1,42 @@
+/* .carousel-item:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.15);
+} */
+
+.top-banner-info {
+    position: absolute;
+    left: 22%;
+    top: 70px;
+    z-index: 10;
+  }
+  
+  @media only screen and (max-width: 688px) {
+    .top-banner-info {
+      position: absolute;
+      left: 22%;
+      top: 10px;
+      z-index: 10;
+    }
+  }
+  
+  .main-footer {
+    height: 444px;
+  }
+  
+  .link-container a {
+    font-size: 40px;
+    padding: 0 15px;
+  }
+  
+  .fa-facebook-square {
+    color: #1977f2;
+  }
+  
+  .fa-linkedin {
+    color: #0a66c2;
+  }
